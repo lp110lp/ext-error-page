@@ -1,0 +1,83 @@
+.error {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #186aa9;
+}
+
+.planet {
+    position: absolute;
+    bottom: -480px;
+    left: 50%;
+    margin-left: -480px;
+    
+}
+
+@keyframes earth
+    {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+    }
+    @keyframes dog
+    {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -80px -2px;
+    }
+    }
+
+.earth {
+    display: block;
+    width: 960px;
+    height: auto;
+    animation: earth 15s  infinite linear;
+}
+
+
+div.graphic {
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -200px ;
+    text-align: center;
+}
+
+
+
+div.graphic>img {
+    width: 60%;
+
+}
+.dog {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    width: 80px;
+    height:80px;
+    background: url(../images/dog.png) 0px 0px no-repeat ;
+}
+.dog-bubble {
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    transform: translateX(50%);
+    width: 246px;
+    height: 179px;
+    background: url(../images/bubble.png) no-repeat center center;
+    background-size: cover;
+    line-height: 100px;
+    text-align: center;
+    font-size: 16px;
+    color: #186aa9;
+}
