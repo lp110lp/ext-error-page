@@ -1,5 +1,5 @@
 {
-    "name": "lp/laravel-admin-ext/errorPage",
+    "name": "lptest/laravel-admin-ext/errorPage",
     "description": "description...",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
