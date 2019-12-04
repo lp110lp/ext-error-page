@@ -3,7 +3,7 @@
     "description": "description...",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/laravel-admin-ext/errorPage",
+    "homepage": "https://github.com/lp110lp/ext-error-page",
     "license": "MIT",
     "authors": [
         {
