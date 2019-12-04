@@ -1,5 +1,5 @@
 {
-    "name": "lptest/laravel-admin-ext/error-page",
+    "name": "lptestcomposer/error-page",
     "description": "description...",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
